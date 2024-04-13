@@ -46,68 +46,64 @@ header {
     border-bottom: 3px solid rgb(255, 0, 0);
 }
 
-.cardFilme {
-    align-content: center;
-    margin: auto;
-    width: 80%;
-    height: 600px;
-    background-color: rgba(173, 0, 0, 0.555);
-    border-radius: 20px;
+button {
+    background-color: grey;
+    font-size: 16px;
 }
 
-.filme {
+button:hover {
+    background-color: white;
+}
+
+.filme1 {
     background-color: #000;
-    width: 98%;
+    width: 80%;
     height: 570px;
     align-content: center;
     margin: auto;
     border-radius: 19px;
 }
 
-.poster img {
-    margin-left: -950px;
-    width: 24%;
-    height: 24%;
+.poster1 img {
+    margin-left: -860px;
+    width: 28%;
+    height: 28%;
     border-radius: 20px;
 }
 
-.detalhes {
+.detalhes1 {
     position: absolute;
-    bottom: -50px;
+    bottom: -90px;
     left: -160px;
     width: 100%;
     height: 90%;
     color: #ffffffcc;
 }
 
-.detalhes h2 {
+.h22 {
     position: absolute;
-    bottom: -1px;
-    left: -39px;
+    bottom: -10px;
+    left: -23px;
     width: 100%;
     font-size: 20px;
     height: 90%;
-    color: #d70000cc;
+    color: #0056d7cc;
 }
 
-.desc h1 {
-    position: absolute;
-    bottom: -70px;
-    left: -55px;
-    width: 100%;
-    height: 90%;
-    color: #d70000cc;
+.detalhes1 h1 {
+    color: #ffffffe8;
 }
 
-.detalhes table {
+.detalhes1 table {
     background-color: #ffffff45;
     color: #000;
-    margin-left: 875px;
-}
-
-.titleTable {
-    color: #000;
-    font-size: 25px;
+    border: 3px solid;
+    border-top: 3px solid;
+    border-color: #0056d7cc;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: 730px;
+    height: 58%;
 }
 
 footer {
