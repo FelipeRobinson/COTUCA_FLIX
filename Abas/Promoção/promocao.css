@@ -1,7 +1,6 @@
 body {
     background-color: rgb(49, 49, 49);
     text-align: center;
-    overflow: hidden;
 }
 
 header {
@@ -17,6 +16,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 90px;
 }
 
 #menu ul {
@@ -45,6 +45,91 @@ header {
     background-color: #65656556;
     color: rgb(255, 255, 255);
     border-bottom: 3px solid rgb(255, 0, 0);
+}
+
+@keyframes red {
+    0% { color: red; }
+    16.67% { color: rgb(116, 0, 0); }
+    50% { color: rgb(0, 0, 0); }
+    83.33% { color: rgb(116, 0, 0); }
+    100% { color: red; }
+}
+
+.rainbow-title {
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    animation: red 4s linear infinite;
+}
+
+table {
+    height: 12px;
+    border-color: #e7e6e6;
+    border-radius: 20px;
+    padding: 1%;
+    width: 90%;
+    margin: auto;
+}
+
+.title {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cinebox {
+    width: 96%;
+}
+
+.licenFeminina {
+    width: 98%;
+}
+
+.goLoud {
+    width: 98%;
+}
+
+.carteiraTrblh {
+    width: 84%;
+}
+
+.promoAmizade {
+    width: 98%;
+}
+
+.cinefamily {
+    width: 98%;
+}
+
+td {
+    color: #e7e6e6;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ad0000;
+}
+
+@keyframes clickAnimation {
+    0% { transform: scale(1); }
+    50% { transform: scale(0.9); }
+    100% { transform: scale(1); }
+}
+
+button:active {
+    animation: clickAnimation 0.1s ease;
+}
+
+img {
+    border-radius: 20px;
 }
 
 footer {

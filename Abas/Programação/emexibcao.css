@@ -24,6 +24,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 90px;
 }
 
 #menu ul {
@@ -65,12 +66,14 @@ header {
 .h1-2::before {
     content: attr(data-content);
     position: absolute;
+    margin-left: 160px;
+    text-align: center;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 80%;
     height: 100%;
     color: white;
-    background: linear-gradient(to right, black, red);
+    background: linear-gradient(to right, black, rgb(219, 0, 0));
     clip-path: inset(0 0 100% 0);
     animation: revealText 2s forwards;
 }
