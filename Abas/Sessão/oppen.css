@@ -73,7 +73,7 @@ button {
     width: 60%;
     height: 30px;
     color: #000;
-    border-color: #0056d7cc;
+    border-color: goldenrod;
     border-radius: 10px;
 }
 
@@ -96,8 +96,8 @@ button:hover {
 
 .poster1 img {
     margin-left: -840px;
-    width: 28%;
-    height: 28%;
+    width: 29%;
+    height: 29%;
     border-radius: 20px;
 }
 
@@ -117,12 +117,12 @@ button:hover {
     width: 100%;
     font-size: 20px;
     height: 90%;
-    color: #0056d7cc;
+    color: goldenrod;
 }
 
 .detalhes1 h1 {
     color: #ffffffe8;
-    margin-left: 2%;
+    margin-left: 7%;
 }
 
 .detalhes1 table {
@@ -130,7 +130,7 @@ button:hover {
     color: #000;
     border: 3px solid;
     border-top: 3px solid;
-    border-color: #0056d7cc;
+    border-color: goldenrod;
     border-radius: 20px;
     width: 50%;
     margin-left: 750px;

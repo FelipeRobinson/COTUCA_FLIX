@@ -50,28 +50,65 @@ header {
 }
 
 table {
-    width: 70%;
-    margin: auto;
+    width: 90%;
+    margin: auto;   
 }
 
-table img {
-    border-radius: 20px;
+.titleFilmes {
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+td {
+    width: 30%;
+    padding: 10px;
 }
 
 .avatar {
-    width: 98%;
+    width: 88%;
+    border-radius: 20px;
 }
 
 .figthClub {
-    width: 92%;
+    width: 93%;
+    border-radius: 20px;
 }
 
 .gameVoraz {
-    width: 92%;
+    width: 89%;
+    border-radius: 20px;
 }
 
 .bomPai {
-    width: 47%;
+    width: 309px;
+    border-radius: 20px;
+}
+
+.duniNha {
+    width: 96%;
+    border-radius: 20px;
+}
+
+.vF {
+    width: 321px;
+    border-radius: 20px;
+}
+
+.subTitle {
+    color:white;
+}
+
+button {
+    background-color: rgb(48,48,48);
+    width: 60%;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-color: #000;
+}
+
+button:hover {
+    background-color: rgb(60,60,60);
 }
 
 footer {
