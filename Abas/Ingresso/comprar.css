@@ -50,6 +50,84 @@ header {
     border-bottom: 3px solid rgb(255, 0, 0);
 }
 
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    color: #ff0000;
+}
+
+.area-login {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.compra {
+    margin: auto;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    border-radius: 10px;
+    width: 40%;
+    height: 500px;
+    padding: 35px;
+}
+
+.compra form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.compra input,select {
+    margin-top: 10px;
+    background-color: rgba(71, 71, 71, 0.77);
+    color: #ffffffa8;
+    border: none;
+    height: 35px;
+    outline: none;
+    border-radius: 10px;
+}
+
+input::placeholder,select::placeholder{
+    color: #ffffffa8;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+.compra button{
+    background-color: red;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+}
+
+button {
+    border: #000;
+    border-radius: 10px;
+}
+
+button a {
+    z-index: 2;
+    color: #000;
+}
+
+p {
+    color:#c1c1c1;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    margin-left: 20px;
+    margin: auto;
+}
+
 footer {
     background-color: rgb(0, 0, 0);
     color: #fff;
