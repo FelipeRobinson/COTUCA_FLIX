@@ -17,7 +17,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90px;
+    background-color: #000;
+    padding: 1px;
+    height: 70px;
 }
 
 #menu ul {
